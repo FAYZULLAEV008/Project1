@@ -1,0 +1,102 @@
+/* Umumiy stil */
+body {
+    font-family: Arial, sans-serif;
+    background:linear-gradient(135deg, rgb(11, 226, 226), rgb(235, 11, 11)) ;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background:linear-gradient(135deg, rgb(235, 11, 11),rgb(11, 226, 226) );
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigatsiya */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff9800;
+}
+
+/* Asosiy bo‘lim */
+main {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+/* Anime ro‘yxati */
+.anime-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: #1f1f1f;
+}
+
+.anime-item {
+    background:linear-gradient(135deg,  red, rgb(0, 255, 255));
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+}
+
+.anime-item h2 {
+    font-size: 20px;
+}
+
+video {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Havola */
+.anime-item a {
+    color: #ff9800;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.anime-item a:hover {
+    text-decoration: underline;
+}
+
+/* Aloqa bo‘limi */
+#contact {
+    margin-top: 50px;
+    padding: 20px;
+    background:linear-gradient(135deg, rgb(202, 224, 224),darkcyan, );
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background:linear-gradient(135deg, rgb(235, 11, 11),rgb(11, 226, 226) );
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
